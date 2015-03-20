@@ -4,7 +4,7 @@ Small library to simplify common used patterns in view inflation.
 
 ## ListView's header and footer
 
-Using `AutoInflateLayout` you can add header and footer to `ListView` like this:
+Using `AutoInflateLayout` header and footer can be added to `ListView` like this:
 
 ```xml
 <com.kboyarshinov.autoinflate.AutoInflateLayout
@@ -35,7 +35,7 @@ Using `AutoInflateLayout` you can add header and footer to `ListView` like this:
 </com.kboyarshinov.autoinflate.AutoInflateLayout>
 ```
 
-Header and footer views are recognized by the relative position to `ListView`. Header is location before `ListView`, footer is after.
+Header and footer views are recognized by the relative position to `ListView`. Header is located before `ListView`, footer is after.
 
 `AutoInflateLayout` is typically just `FrameLayout`, so any Views besides footer and header can be added to it.
 
