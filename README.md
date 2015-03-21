@@ -1,6 +1,6 @@
 # AutoInflate
 
-Small library to simplify common used patterns in view inflation.
+Small Android library to simplify common used patterns in view inflation.
 
 ## ListView's header and footer
 
