@@ -39,6 +39,16 @@ Header and footer views are recognized by the relative position to `ListView`. H
 
 `AutoInflateLayout` is typically just `FrameLayout`, so any Views besides footer and header can be added to it.
 
+## Dependency
+
+Include the dependency [Download (.aar)](http://search.maven.org/remotecontent?filepath=com/kboyarshinov/autoinflate/0.1/autoinflate-0.1.aar) :
+
+```groovy
+dependencies {
+    compile 'com.kboyarshinov:autoinflate:0.1'
+}
+```
+
 ## LICENSE
 
 Licensed under the Apache License, Version 2.0 (the "License");
