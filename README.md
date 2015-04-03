@@ -41,7 +41,7 @@ Header and footer views are recognized by the relative position to `ListView`. H
 
 ## Dependency
 
-Include the dependency [Download (.aar)](http://search.maven.org/remotecontent?filepath=com/kboyarshinov/autoinflate/0.1/autoinflate-0.1.aar) :
+Include the dependency or [Download (.aar)](http://search.maven.org/remotecontent?filepath=com/kboyarshinov/autoinflate/0.1/autoinflate-0.1.aar) :
 
 ```groovy
 dependencies {
