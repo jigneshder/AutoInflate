@@ -45,7 +45,7 @@ Include the dependency [Download (.aar)](http://search.maven.org/remotecontent?f
 
 ```groovy
 dependencies {
-    compile 'com.kboyarshinov:autoinflate:0.1'
+    compile 'com.kboyarshinov:autoinflate:0.1.1'
 }
 ```
 
