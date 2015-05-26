@@ -1,0 +1,33 @@
+<com.kboyarshinov.autoinflate.sample.ButterKnifeView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kboyarshinov.autoinflate.sample.ButterKnifeActivity">
+
+    <!-- Header is above ListView -->
+    <TextView
+        android:id="@+id/sample_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="This is header"
+        android:gravity="center"/>
+
+    <!-- Header and Footer are automatically added to ListView -->
+    <ListView
+        android:id="@+id/sample_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        />
+
+    <!-- Footer is below ListView -->
+    <TextView
+        android:id="@+id/sample_footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="This is footer"
+        android:gravity="center"/>
+</com.kboyarshinov.autoinflate.sample.ButterKnifeView>
